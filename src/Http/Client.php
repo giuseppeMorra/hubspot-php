@@ -107,10 +107,10 @@ class Client
 
         try {
             if (false === $this->wrapResponse) {
-                return $this->client->request($method, $url, $options);
+                return $this->client->createRequest($method, $url, $options);
             }
 
-            return new Response($this->client->request($method, $url, $options));
+            return new Response($this->client->createRequest($method, $url, $options));
         } catch (ServerException $e) {
             throw HubspotException::create($e);
         } catch (ClientException $e) {
