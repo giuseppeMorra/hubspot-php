@@ -414,4 +414,44 @@ class Response implements ResponseInterface, ArrayAccess
     {
         // TODO: Implement xml() method.
     }
+
+    public function __toString()
+    {
+        // TODO: Implement __toString() method.
+    }
+
+    public function setBody(\GuzzleHttp\Stream\StreamInterface $body = null)
+    {
+        // TODO: Implement setBody() method.
+    }
+
+    public function getHeaderAsArray($header)
+    {
+        // TODO: Implement getHeaderAsArray() method.
+    }
+
+    public function removeHeader($header)
+    {
+        // TODO: Implement removeHeader() method.
+    }
+
+    public function addHeader($header, $value)
+    {
+        // TODO: Implement addHeader() method.
+    }
+
+    public function addHeaders(array $headers)
+    {
+        // TODO: Implement addHeaders() method.
+    }
+
+    public function setHeader($header, $value)
+    {
+        // TODO: Implement setHeader() method.
+    }
+
+    public function setHeaders(array $headers)
+    {
+        // TODO: Implement setHeaders() method.
+    }
 }
