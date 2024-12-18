@@ -384,4 +384,34 @@ class Response implements ResponseInterface, ArrayAccess
 
         return $contents ? json_decode($contents) : null;
     }
+
+    public function setStatusCode($code)
+    {
+        // TODO: Implement setStatusCode() method.
+    }
+
+    public function setReasonPhrase($phrase)
+    {
+        // TODO: Implement setReasonPhrase() method.
+    }
+
+    public function getEffectiveUrl()
+    {
+        // TODO: Implement getEffectiveUrl() method.
+    }
+
+    public function setEffectiveUrl($url)
+    {
+        // TODO: Implement setEffectiveUrl() method.
+    }
+
+    public function json(array $config = [])
+    {
+        // TODO: Implement json() method.
+    }
+
+    public function xml(array $config = [])
+    {
+        // TODO: Implement xml() method.
+    }
 }
