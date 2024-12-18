@@ -13,7 +13,7 @@ class Tickets extends Resource
      */
     public function create(array $ticket)
     {
-        $endpoint = 'https://api.hubapi.com/crm-objects/v1/objects/tickets';
+        $endpoint = 'https://api.hubapi.com/crm/v3/objects/tickets';
 
         $options['json'] = $ticket;
 
